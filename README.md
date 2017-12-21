@@ -1,6 +1,6 @@
 # Steganography
 
-In this project, we hide a secret message inside an Image by changing the bit values of respective R, G and B values of the image's pixel values. These are done seperately in three scripts: hide.py (blue bits), hidered.py(red bits), hidegreen.py(green bits). We use chm.py for qualitative measures on stego and original image.
+In this project, we hide a secret message inside an Image by changing the bit values of respective R, G and B values of the image's pixel values. These are done seperately in three scripts: hide.py (blue bits), hidered.py(red bits), hidegreen.py(green bits). We use chm.py for qualitative measures on stego and original image. This project is work of two-member team, under the Minor project of college semester.
 
 Help for how to use the given Python scripts
 --------------------------------------------
@@ -44,3 +44,8 @@ Image Distortion Measurement
 3. Use the following command: python chm.py (image1-filename) (image2-filename)
 For example, "python chm.py 1.png 1.pngblue"
 4. The result of these measures will be displayed on the screen. Please keep in mind that if two exactly same images is used for comparison, then error will occur due to division by zero error in SSIM method.
+
+Credits
+-------
+
+Video on YouTube by DrapsTV (Steganography Tutorial - Hiding Text inside an Image: https://youtu.be/q3eOOMx5qoo)
